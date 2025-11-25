@@ -29,12 +29,12 @@ In C++ and using VTK (Visualization ToolKit):
 2. copy cmake\preload.cmake to vtk build directory
 
 3. in vtk build dir:
-   cmake -C preload.cmake path_to_vtk_source
-   cmake .
-   cmake --build . --config Debug
+   - cmake -C preload.cmake path_to_vtk_source
+   - cmake .
+   - cmake --build . --config Debug
 
 4. create build directory for vtk_challenge and in that dir
-   cmake -S path_to_vtk_challenge -B . -G "Visual Studio 17 2022" -A x64 -DVTK_DIR=path_to_vtk_build
-   cmake --build . --config Debug
-   cd Debug
-   vtk_challenge.exe path_to_event_data_file
+   - cmake -S path_to_vtk_challenge -B . -G "Visual Studio 17 2022" -A x64 -DVTK_DIR=path_to_vtk_build
+   - cmake --build . --config Debug
+   - cd Debug
+   - vtk_challenge.exe path_to_event_data_file
