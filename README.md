@@ -20,7 +20,7 @@ Suggested Build Workflow
   vtk_challenge.exe path_to_event_data_file
 
 
-The Challenge
+**The Challenge**
 
 Implement a stand alone CLI application that takes the data\event_data.csv file input containing:
 geophysical coordinates (east, north, depth) that represent located seismic events and their associated moment magnitude (Mw)
